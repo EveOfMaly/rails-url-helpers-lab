@@ -7,6 +7,5 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-
-Student.create!(first_name: "Daenerys", last_name: "Targaryen")
-Student.create!(first_name: "John", last_name: "Kyeremeh")
+@student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
+@student = Student.create!(first_name: "Bob", last_name: "William")
